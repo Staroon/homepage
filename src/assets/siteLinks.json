@@ -7,7 +7,7 @@
   {
     "icon": "Cloud",
     "name": "Lobe",
-    "link": "https://lobe.hoyoo.dev/"
+    "link": "https://lobe.aihuayu.dev/"
   },
   {
     "icon": "Compass",
@@ -18,11 +18,6 @@
     "icon": "Book",
     "name": "Link3",
     "link": "https://io.hoyoo.dev/"
-  },
-  {
-    "icon": "Fire",
-    "name": "今日热榜",
-    "link": "https://hot.imsyy.top/"
   },
   {
     "icon": "LaptopCode",
