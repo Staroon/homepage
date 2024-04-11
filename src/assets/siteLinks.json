@@ -1,7 +1,7 @@
 [
   {
     "icon": "Blog",
-    "name": "博客",
+    "name": "Blog",
     "link": "https://www.hoyoo.dev/"
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "icon": "Compass",
-    "name": "起始页",
+    "name": "Notion",
     "link": "https://notion.hoyoo.dev/"
   },
   {
