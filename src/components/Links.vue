@@ -25,7 +25,7 @@
             <div
               class="item cards"
               :style="index < 3 ? 'margin-bottom: 20px' : null"
-              @click="jumpLink(item)"
+              @click="checkPwd(item)"
             >
               <Icon size="26">
                 <component :is="siteIcon[item.icon]" />
@@ -72,6 +72,20 @@ const siteIcon = {
   LaptopCode,
 };
 
+const checkPwd = (data) => {
+  if (data.pwd) {
+    const password = prompt("请输入访问密码:");
+    if (password === data.pwd) {
+      jumpLink(data);
+    } else {
+      alert("密码错误，请重新输入！");
+    }
+  } else {
+    jumpLink(data);
+  }
+};
+
+
 // 链接跳转
 const jumpLink = (data) => {
   if (data.name === "音乐" && store.musicClick) {
@@ -94,37 +108,45 @@ onMounted(() => {
     display: flex;
     align-items: center;
     animation: fade 0.5s;
+
     .title {
       margin-left: 8px;
       font-size: 1.15rem;
       text-shadow: 0 0 5px #00000050;
     }
   }
+
   .swiper {
     left: -10px;
     width: calc(100% + 20px);
     padding: 5px 10px 0;
     z-index: 0;
+
     .swiper-slide {
       height: 100%;
     }
+
     .swiper-pagination {
       position: static;
       margin-top: 4px;
+
       :deep(.swiper-pagination-bullet) {
         background-color: #fff;
         width: 18px;
         height: 4px;
         border-radius: 4px;
         transition: opacity 0.3s;
+
         &:hover {
           opacity: 1;
         }
       }
     }
   }
+
   .link-all {
     height: 220px;
+
     .item {
       height: 100px;
       width: 100%;
@@ -149,6 +171,7 @@ onMounted(() => {
         font-size: 1.1rem;
         margin-left: 8px;
       }
+
       @media (min-width: 720px) and (max-width: 820px) {
         .name {
           display: none;
@@ -166,6 +189,7 @@ onMounted(() => {
         }
       }
     }
+
     @media (max-width: 720px) {
       height: 180px;
     }
