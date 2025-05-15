@@ -5,14 +5,14 @@
     "link": "https://www.hoyoo.dev/"
   },
   {
-    "icon": "Cloud",
-    "name": "Lobe",
-    "link": "https://lobe.aihuayu.dev/"
+    "icon": "Brain",
+    "name": "Next",
+    "link": "https://next.aihuayu.dev/"
   },
   {
-    "icon": "Book",
-    "name": "Notion",
-    "link": "https://notion.hoyoo.dev/"
+    "icon": "News24Regular",
+    "name": "News",
+    "link": "https://news.hoyoo.dev/"
   },
   {
     "icon": "Compass",
@@ -24,5 +24,11 @@
     "name": "JetBrains",
     "link": "https://jb.hoyoo.dev/",
     "pwd": "idea"
+  },
+  {
+    "icon": "Settings",
+    "name": "Nginx",
+    "link": "https://npm.hoyoo.dev/",
+    "pwd": "npm"
   }
 ]
