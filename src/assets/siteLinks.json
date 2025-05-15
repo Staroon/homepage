@@ -10,7 +10,7 @@
     "link": "https://next.aihuayu.dev/"
   },
   {
-    "icon": "News",
+    "icon": "BookOpen",
     "name": "News",
     "link": "https://news.hoyoo.dev/"
   },
@@ -26,7 +26,7 @@
     "pwd": "idea"
   },
   {
-    "icon": "Settings",
+    "icon": "Globe",
     "name": "Nginx",
     "link": "https://npm.hoyoo.dev/",
     "pwd": "npm"
