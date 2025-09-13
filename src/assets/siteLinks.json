@@ -2,22 +2,8 @@
   {
     "icon": "Blog",
     "name": "Blog",
-    "link": "https://www.hoyoo.dev/"
-  },
-  {
-    "icon": "Brain",
-    "name": "Next",
-    "link": "https://next.aihuayu.dev/"
-  },
-  {
-    "icon": "BookOpen",
-    "name": "News",
-    "link": "https://news.hoyoo.dev/"
-  },
-  {
-    "icon": "Compass",
-    "name": "Link3",
-    "link": "https://io.hoyoo.dev/"
+    "link": "https://www.hoyoo.dev/",
+    "pwd": "blog"
   },
   {
     "icon": "LaptopCode",
